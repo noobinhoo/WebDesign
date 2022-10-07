@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #b52dc4,#af1d30);
+}
+form{
+    height: 35rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255, 255, 0.1);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255, 255, 0.12);
+    border-top: 1px solid rgba(255,255, 255, 0.12);
+
+    box-shadow: 3px 3px 2px 1px rgba(0,0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    opacity: 0.7;
+    letter-spacing: 0.3em;
+    color: white;
+    text-shadow:2px 2px 2px rgba(0,0, 0, 0.3);
+    margin-top: 2%;
+    font-family: 'Oswald', sans-serif;
+}
+label{
+    margin-top: 3%;
+    margin-left: 10% ;
+    font-size: 20px;
+    opacity: 0.8;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0, 0, 0.3);
+    font-family: 'Oswald', sans-serif;
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:rgba(255,255, 255, 0.6);
+    border-bottom: 1px solid rgba(255,255, 255, 0.6);
+    opacity: 0.8;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+    background: rgba(255,255, 255, 0.12);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+    text-shadow: 2px 2px 2px rgba(255,255, 255, 0.2);
+    box-shadow: 2px 2px 2px rgba(0,53, 0, 0.3);
+    transition: background-color  0.3s ;
+}
+a{
+    margin-top: 3%;
+    font-size: 12px;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    text-decoration: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transform:translate();
+}
+p{
+    color: white;
+    text-align: center  ;
+    margin-top: 5%;
+}
+.fr a:nth-of-type(1){
+    font-size: 15px;
+    padding-left: 10px;
+    float: left;
+   
+    color: rgba(255,255, 255, 0.8);
+}
+.fr a:nth-of-type(2){
+    font-size: 15px;
+    padding-right: 10px;
+    bottom:0;
+    
+    
+    float: right;
+    
+    color: rgba(255,255, 255, 0.8);
+}
